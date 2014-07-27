@@ -1,0 +1,97 @@
+<template name='Index'>
+  <!-- Navigation -->
+
+
+  <nav class="navbar navbar-default navbar-static-top navbar-inplace" role="navigation">
+    <ul class="nav navbar-nav navbar-left pull-left hidden-sm hidden-md hidden-lg">
+      <li>
+        <a id="oc-left-toggle-xs" href="#oc-wrapper" class="btn-nav pull-left " data-toggle="offcanvas" data-control="left" data-states="open,hidden" data-persist="lg,md,sm" data-parent="body" data-sibling="right">
+          <i class="icm icm-menu6"></i>
+        </a>
+      </li>
+    </ul>
+    <a class="navbar-brand" href="/htmls/dashboard.html">
+      <img src="/images/emerald_flat.png">
+      <span class="text-gradient-success-dk">Scipopulis</span>
+    </a>
+    <ul class="nav navbar-nav navbar-right pull-right">
+      <li id="oc-right-toggle-container">
+        <a id="oc-right-toggle" href="#oc-wrapper" class="btn-nav sidebar-toggle-right" rel="tooltip" title="" data-placement="bottom" data-container="#oc-right-toggle-container" data-toggle="offcanvas" data-control="right" data-states="open,hidden" data-persist="lg,md,sm" data-original-title="Toggle chat">
+          <i class="fa fa-lg fa-comments has-corner-badge">
+            <span class="badge badge-corner badge-corner-top-right badge-info">3</span>
+          </i>
+        </a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right pull-right hidden-xs">
+      <li class="dropdown">
+        <a href="#" data-toggle="dropdown" class="navbar-img-link" data-no-turbolink="true">
+          <img class="img-circle" src="/images/faker/avatars/48/Faces_Users-04.png">
+          <span class="hidden-xs hidden-sm hidden-md">Amy R. Hofstadter</span>
+          <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu animated fadeIn fast">
+          <li>
+            <a href="/htmls/pages/profile.html">
+              <i class="fa fa-user"></i> Profile
+            </a>
+          </li>
+          <li>
+            <a href="/htmls/pages/profile.html">
+              <i class="fa fa-cog"></i> Settings
+            </a>
+          </li>
+          <li>
+            <a href="#" data-no-turbolink="true">
+              </a><a href="/htmls/pages/sign_in.html">
+                <i class="fa fa-power-off text-danger"></i>
+                <span class="text-danger">Sign out</span>
+              </a>
+
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav nav-center hidden-xs">
+    </ul>
+  </nav>
+
+  <!-- Main bar -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3 class="em-page-header v-mid-row thin">
+          <i class="icm icm-screen4 text-gradient-info-dk"></i>
+
+          <span class="text-gradient-info-dk">
+            Dashboard
+          </span>
+        </h3>
+      </div>
+      <div class="col-sm-6 text-right-sm text-right-md text-right-lg">
+        <ul class="breadcrumb breadcrumb-top">
+          <li><i class="fa fa-home"></i> Home</li>
+              <li class="active">
+                    Dashboard
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="container-fluid turbo-cols-static turbo-grid-wrap">
+    <div class="turbo-grid">
+      <div class="row" rel="panels">
+        <div class="container-fluid turbo-cols-static turbo-grid-wrap">
+            {{#each cards}}
+              <div class='col-md-6'>
+                {{> CardOlhoTwitterPredictions}}
+              </div>
+            {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</template>

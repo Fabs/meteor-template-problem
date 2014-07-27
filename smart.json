@@ -1,0 +1,19 @@
+{
+  "packages": {
+    "iron-router": {},
+    "mapbox": {},
+    "handlebar-helpers": {},
+    "cron-tick": {},
+    "moment": {},
+    "kadira": {},
+    "npm": {},
+    "chance": {},
+    "jade": {},
+    "hammer": {},
+    "geocoder": {},
+    "scss": {},
+    "font-awesome": {},
+    "morris": {},
+    "http-methods": {}
+  }
+}

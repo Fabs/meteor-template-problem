@@ -1,0 +1,109 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "mapbox": {},
+      "handlebar-helpers": {},
+      "cron-tick": {},
+      "moment": {},
+      "kadira": {},
+      "npm": {},
+      "chance": {},
+      "jade": {},
+      "hammer": {},
+      "geocoder": {},
+      "scss": {},
+      "font-awesome": {},
+      "morris": {},
+      "http-methods": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "mapbox": {
+        "git": "https://github.com/mrcwinn/mapbox.git",
+        "tag": "v1.5.0",
+        "commit": "07d4dcf3c07445449d492ebcd0f292a5fe2a98b6"
+      },
+      "handlebar-helpers": {
+        "git": "https://github.com/raix/Meteor-handlebar-helpers.git",
+        "tag": "v0.1.1",
+        "commit": "0b407ab65e7c1ebd53d71aef0de2e2c1d21a597c"
+      },
+      "cron-tick": {
+        "git": "https://github.com/tmeasday/meteor-cron.git",
+        "tag": "v0.0.4",
+        "commit": "44cff9116af510fe53704fdeeff57c444ceb75ba"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.6.0",
+        "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
+      },
+      "kadira": {
+        "git": "https://github.com/meteorhacks/kadira.git",
+        "tag": "v2.4.9",
+        "commit": "8bb902989917522822a0897117672ae858c23427"
+      },
+      "npm": {
+        "git": "https://github.com/arunoda/meteor-npm.git",
+        "tag": "v0.2.6",
+        "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
+      },
+      "chance": {
+        "git": "https://github.com/jvanveen/meteor-chance.git",
+        "tag": "v1.0.2",
+        "commit": "c06db16783744e5c1f4c36668a14240086caa1c7"
+      },
+      "jade": {
+        "git": "https://github.com/mquandalle/meteor-jade.git",
+        "tag": "v0.2.4",
+        "commit": "a47a4c59daaa57e7fe5f1544d4ea76d95a5c9abf"
+      },
+      "hammer": {
+        "git": "https://github.com/noorderstorm/meteor-hammer.git",
+        "tag": "v0.1.3",
+        "commit": "1d37707c251c04c7d9b6023ba959b23c1f257c44"
+      },
+      "geocoder": {
+        "git": "https://github.com/aldeed/meteor-geocoder.git",
+        "tag": "v0.2.0",
+        "commit": "788b7eb97b3a481ca1d298bc2849fa6b624412f9"
+      },
+      "scss": {
+        "git": "https://github.com/fourseven/meteor-scss.git",
+        "tag": "v0.9.3",
+        "commit": "185f3b2787fb85e653f7b7bf603d1493ed14943d"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.1.0",
+        "commit": "ce6b1e92715d1938babc5d69c655c17e387f5926"
+      },
+      "morris": {
+        "git": "https://github.com/chhib/meteor-morris.git",
+        "tag": "v0.0.1",
+        "commit": "34416106d7d4c978cc21c651a3ae6629a3f2132d"
+      },
+      "http-methods": {
+        "git": "https://github.com/CollectionFS/Meteor-http-methods.git",
+        "tag": "v0.0.22",
+        "commit": "5b0f7723f49436b8a0a930f284ed05f0b26021fe"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "raphael": {
+        "git": "https://github.com/chhib/meteor-raphael.git",
+        "tag": "v0.0.1",
+        "commit": "a90a37d8562bb7d2ddd559801caf61e28b85da4e"
+      }
+    }
+  }
+}
