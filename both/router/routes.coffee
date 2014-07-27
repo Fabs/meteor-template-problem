@@ -9,5 +9,5 @@ Router.configure
   routeControllerNameConverter: 'upperCamelCase'
 
 Router.map ->
-  @route 'fix',path: "/fix"
-  @route 'index',path: "/"
+  @route 'fix',path: "/"
+  @route 'index',path: "/index"
